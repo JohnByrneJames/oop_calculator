@@ -1,4 +1,5 @@
 import unittest  # import unit test module
+import pytest
 
 from calculator import Calculator  # import calculator from calculator.py
 
@@ -26,3 +27,11 @@ class CalculatorTest(unittest.TestCase):  # Calculator test with test case being
 
     def test_exponentiation(self):
         self.assertEqual(self.calculator_instance.exponentiation(4, 5), 1024)
+
+    # Trying out pyTest module too
+    def func(self, x):
+        return x + 1
+
+    def test_answer(self):
+        assert self.func(3) == 4
+

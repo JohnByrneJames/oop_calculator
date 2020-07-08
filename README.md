@@ -7,4 +7,3 @@ Exercise set from 9:00 - 9:30 AM
 > Import parent class into child class
 > Test functionality in child class 
 
-This exercise can be found here [**Morning-Exercise**]()
